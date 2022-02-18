@@ -12,11 +12,11 @@ export default function Navbar() {
         firebase.auth().signOut();
         console.log("Loged out")
         }else{
-            console.log("tussi ja ra oo???😟")
+            console.log("tussi ja ra oo???")
         }
     }
     return (<>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark navbar-inverse fixed-top navbar-custom">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark navbar-inverse">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/home">BSCS</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

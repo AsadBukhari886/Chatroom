@@ -1,6 +1,6 @@
 import React from 'react';
 import 'materialize-css/dist/css/materialize.min.css'
-import './App.css';
+// import './App.css';
 import './index.css';
 import firebase from 'firebase/app';
 import 'firebase/auth';
@@ -51,13 +51,13 @@ export default function App() {
     // console.log("my user ", user.emailVerified)
   }
 
-  
+
   return (<>
     <div className="App" >
 
 
 
-      {user ? user.emailVerified?<Profile />:<Activate/> : <Entercard />}
+      {user ? user.emailVerified ? <Profile /> : <Activate /> : <Entercard />}
 
 
 

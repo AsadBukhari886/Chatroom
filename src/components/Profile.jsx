@@ -12,8 +12,8 @@ import Log_out from "./Logout";
 
 export default function Profile(){
 return (<>
-{/* <Navbar/> */}
-<Navbar_custom/>
+<Navbar/>
+{/* <Navbar_custom/> */}
 <Switch>
 <Route exact path="/home" component={Home}/>
 <Route exact path="/chatbox">

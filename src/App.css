@@ -3,14 +3,15 @@
   /* margin: 0;
   padding: 0; */
 }
+
 body {
-  background-color:silver;
+  background-color: silver;
 }
 
 .App {
   text-align: center;
   /* max-width: 728px; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .App header {
@@ -22,7 +23,7 @@ body {
   width: 100%;
   max-width: 728px;
   top: 0;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: space-between;
   z-index: 99;
@@ -75,7 +76,6 @@ form button {
   background-color: rgb(56, 56, 143);
 }
 
-
 input {
   line-height: 1.5;
   width: 100%;
@@ -105,16 +105,12 @@ button:disabled {
   cursor: not-allowed;
 }
 
-
 .sign-in {
   color: #282c34;
   background: white;
   max-width: 400px;
   margin: 0 auto;
 }
-
-
-
 
 ul, li {
   text-align: left;
@@ -137,7 +133,6 @@ p {
   align-items: center;
 }
 
-
 .sent {
   flex-direction: row-reverse;
 }
@@ -147,6 +142,7 @@ p {
   background: #0b93f6;
   align-self: flex-end;
 }
+
 .received p {
   background: #e5e5ea;
   color: black;
@@ -159,36 +155,32 @@ img {
   margin: 2px 5px;
   text-decoration: none;
 }
-.footer{
+
+.footer {
   position: fixed;
-   left: 0px;
-   bottom: 0px;
-   width: 100%;
-   color: white;
-   text-align: center;
-   background-color: rgb(41, 39, 39);
-   padding: 40px;
-   
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: rgb(41, 39, 39);
+  padding: 40px;
 }
-input[type=checkbox]{
+
+input[type=checkbox] {
   display: block !important
 }
-/* input[type="checkbox"] {
-  appearance: checkbox !important;
-} */
 
-/* .navbar-custom {
-  color: #FFFFFF;
-  background-color: #CC3333;
-} */
-.dropdown-menu{
+.dropdown-menu {
   background-color: "black";
-  color:"white"
+  color: "white"
 }
-.navi{
+
+.navi {
   margin-top: 0% !important;
 }
-.user{
+
+.user {
   max-width: 728px;
   margin: 0 auto;
 }
