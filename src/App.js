@@ -2,6 +2,7 @@ import React from 'react';
 import 'materialize-css/dist/css/materialize.min.css'
 // import './App.css';
 import './index.css';
+import './App.css'
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/app';
